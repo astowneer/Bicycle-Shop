@@ -1,0 +1,133 @@
+﻿<Properties StartupConfiguration="{E0D878C8-7A94-4BB1-8D49-169F5B6F7D17}|https">
+  <MonoDevelop.Ide.ItemProperties.BicycleApplication.Presentation FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/astowner/Projects/BicycleApplication/BicycleApplication/Controllers/MountainBicycleController.cs" relfile="BicycleApplication/Controllers/MountainBicycleController.cs" line="32" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.BicycleApplication PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BicycleApplication/Views/ElectroBicycle/Create.cshtml">
+    <Files>
+      <File FileName="Contracts/IBicycleRepository.cs" Line="8" Column="3" />
+      <File FileName="Contracts/IRepositoryBase.cs" Line="1" Column="1" />
+      <File FileName="Contracts/IRepositoryManager.cs" Line="12" Column="18" />
+      <File FileName="Repository/RepositoryBase.cs" Line="1" Column="1" />
+      <File FileName="Repository/RepositoryContext.cs" Line="1" Column="1" />
+      <File FileName="Repository/RepositoryManager.cs" Line="21" Column="50" />
+      <File FileName="Entities/Models/AbstractBicycle.cs" Line="1" Column="1" />
+      <File FileName="Repository/BicycleRepository.cs" Line="24" Column="1" />
+      <File FileName="Service.Contracts/IBicycleService.cs" Line="12" Column="30" />
+      <File FileName="Service.Contracts/IServiceManager.cs" Line="8" Column="1" />
+      <File FileName="Shared/DataTransferObjects/BicycleDto.cs" Line="44" Column="35" />
+      <File FileName="Services/BicycleService.cs" Line="54" Column="4" />
+      <File FileName="Services/ServiceManager.cs" Line="13" Column="1" />
+      <File FileName="BicycleApplication/Controllers/BicycleController.cs" Line="51" Column="43" />
+      <File FileName="BicycleApplication/Views/Bicycle/Index.cshtml" Line="104" Column="95" />
+      <File FileName="BicycleApplication/Extensions/ServiceExtensions.cs" Line="24" Column="59" />
+      <File FileName="BicycleApplication/Program.cs" Line="16" Column="1" />
+      <File FileName="BicycleApplication/Bicycle.json" Line="1" Column="1" />
+      <File FileName="Entities/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Shared/ViewModels/AbstractViewModel.cs" />
+      <File FileName="Shared/Filters/AbstractFilter.cs" />
+      <File FileName="Shared/Filters/ColorFilter.cs" />
+      <File FileName="Shared/Filters/FrameFilter.cs" />
+      <File FileName="Shared/Filters/PedantFilter.cs" />
+      <File FileName="Shared/Filters/YearFilter.cs" />
+      <File FileName="Shared/Filters/WheelFilter.cs" />
+      <File FileName="Shared/Filters/BrakeFilter.cs" />
+      <File FileName="Shared/ViewModels/BicycleViewModel.cs" Line="6" Column="54" />
+      <File FileName="Shared/ViewModels/MountainViewModel.cs" Line="1" Column="1" />
+      <File FileName="Shared/ViewModels/ElectroViewModel.cs" />
+      <File FileName="Shared/ViewModels/HighwayViewModel.cs" Line="7" Column="62" />
+      <File FileName="Shared/ViewModels/GravelViewModel.cs" />
+      <File FileName="BicycleApplication/Views/MountainBicycle/Index.cshtml" Line="207" Column="1" />
+      <File FileName="BicycleApplication/Views/MountainBicycle/Create.cshtml" Line="1" Column="1" />
+      <File FileName="BicycleApplication/Views/MountainBicycle/Edit.cshtml" Line="2" Column="1" />
+      <File FileName="BicycleApplication/Views/MountainBicycle/Details.cshtml" Line="2" Column="31" />
+      <File FileName="BicycleApplication/Views/MountainBicycle/Delete.cshtml" Line="2" Column="31" />
+      <File FileName="BicycleApplication/Controllers/MountainBicycleController.cs" Line="39" Column="48" />
+      <File FileName="Service.Contracts/IFilterService.cs" Line="1" Column="1" />
+      <File FileName="Services/FilterService.cs" Line="1" Column="1" />
+      <File FileName="Contracts/IFilterRepository.cs" Line="1" Column="1" />
+      <File FileName="Repository/FilterRepository.cs" Line="1" Column="1" />
+      <File FileName="Entities/Models/Bicycle.cs" Line="4" Column="3" />
+      <File FileName="Entities/Models/Mountain.cs" Line="1" Column="1" />
+      <File FileName="BicycleApplication/wwwroot/css/site.css" />
+      <File FileName="BicycleApplication/Views/Shared/_Layout.cshtml" />
+      <File FileName="BicycleApplication/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="BicycleApplication/Views/Shared/Error.cshtml" />
+      <File FileName="BicycleApplication/Views/Shared/_LayoutBicycle.cshtml" />
+      <File FileName="BicycleApplication/Views/_ViewImports.cshtml" />
+      <File FileName="BicycleApplication/Views/_ViewStart.cshtml" />
+      <File FileName="BicycleApplication/wwwroot/css/bicycleSite.css" />
+      <File FileName="BicycleApplication/Controllers/PurchaseCartController.cs" Line="16" Column="41" />
+      <File FileName="BicycleApplication/Extensions/SessionExtensions.cs" />
+      <File FileName="Entities/Models/BicycleItem.cs" Line="1" Column="1" />
+      <File FileName="BicycleApplication/Views/PurchaseCart/Index.cshtml" Line="29" Column="73" />
+      <File FileName="Entities/Models/Gravel.cs" Line="13" Column="3" />
+      <File FileName="BicycleApplication/wwwroot/js/site.js" Line="56" Column="4" />
+      <File FileName="Entities/Models/ElectroBicycle.cs" Line="1" Column="1" />
+      <File FileName="BicycleApplication/Controllers/CompareCartController.cs" Line="38" Column="54" />
+      <File FileName="Entities/Models/CompareItem.cs" Line="6" Column="45" />
+      <File FileName="BicycleApplication/Views/CompareCart/Index.cshtml" Line="26" Column="14" />
+      <File FileName="BicycleApplication/Views/HighwayBicycle/Index.cshtml" Line="1" Column="1" />
+      <File FileName="BicycleApplication/Views/HighwayBicycle/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="BicycleApplication/Views/HighwayBicycle/Details.cshtml" Line="2" Column="1" />
+      <File FileName="BicycleApplication/Views/HighwayBicycle/Delete.cshtml" Line="15" Column="13" />
+      <File FileName="BicycleApplication/Views/HighwayBicycle/Create.cshtml" Line="16" Column="10" />
+      <File FileName="BicycleApplication/Controllers/HighwayBicycleController.cs" Line="20" Column="51" />
+      <File FileName="Entities/Models/Highway.cs" Line="8" Column="38" />
+      <File FileName="Contracts/IMountainRepository.cs" Line="13" Column="36" />
+      <File FileName="Repository/MountainRepository.cs" Line="25" Column="36" />
+      <File FileName="Service.Contracts/IMountainBicycle.cs" Line="7" Column="35" />
+      <File FileName="Services/MountainService.cs" Line="38" Column="43" />
+      <File FileName="BicycleApplication/Views/GravelBicycle/Index.cshtml" Line="184" Column="1" />
+      <File FileName="BicycleApplication/Views/GravelBicycle/Edit.cshtml" Line="2" Column="1" />
+      <File FileName="BicycleApplication/Views/GravelBicycle/Details.cshtml" Line="1" Column="1" />
+      <File FileName="BicycleApplication/Views/GravelBicycle/Delete.cshtml" Line="2" Column="1" />
+      <File FileName="BicycleApplication/Views/GravelBicycle/Create.cshtml" Line="1" Column="1" />
+      <File FileName="BicycleApplication/Views/ElectroBicycle/Index.cshtml" Line="189" Column="116" />
+      <File FileName="BicycleApplication/Views/ElectroBicycle/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="BicycleApplication/Views/ElectroBicycle/Details.cshtml" Line="1" Column="1" />
+      <File FileName="BicycleApplication/Views/ElectroBicycle/Delete.cshtml" Line="2" Column="1" />
+      <File FileName="BicycleApplication/Views/ElectroBicycle/Create.cshtml" Line="14" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BicycleApplication" expanded="True">
+            <Node name="BicycleApplication" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="CompareCart" expanded="True" />
+                <Node name="ElectroBicycle" expanded="True" />
+                <Node name="GravelBicycle" expanded="True" />
+                <Node name="HighwayBicycle" expanded="True" />
+                <Node name="MountainBicycle" expanded="True" />
+                <Node name="PurchaseCart" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Contracts" expanded="True" />
+            <Node name="Entities" expanded="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="Repository" expanded="True" />
+            <Node name="Service.Contracts" expanded="True" />
+            <Node name="Services" expanded="True" />
+            <Node name="Shared" expanded="True">
+              <Node name="DataTransferObjects" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,73 @@
+﻿@model BicycleApplication.Entities.Models.Highway
+
+<h1>Деталі</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Модель
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Колір
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Color)
+        </dd>
+        <dt class="col-sm-2">
+            Рік випуску
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+        <dt class="col-sm-2">
+            Матеріал рами
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FrameMaterial)
+        </dd>
+        <dt class="col-sm-2">
+            Тип тормозу
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BrakeType)
+        </dd>
+        <dt class="col-sm-2">
+            Тип підвіски
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PedantType)
+        </dd>
+        <dt class="col-sm-2">
+            Діаметр коліс
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DiameterOfWheel)
+        </dd>
+        <dt class="col-sm-2">
+            Кількість швидкостей
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NumberOfGears)
+        </dd>
+        <dt class="col-sm-2">
+            Складний
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IsDropBar)
+        </dd>
+        <dt class="col-sm-2">
+            Ціна
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id=@Model?.Id>Редагувати</a>
+    <a asp-action="Index">Повернутися до списку</a>
+</div>

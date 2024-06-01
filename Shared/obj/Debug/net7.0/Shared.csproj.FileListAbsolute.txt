@@ -1,0 +1,15 @@
+/Users/astowner/Projects/BicycleApplication/Shared/bin/Debug/net7.0/Shared.deps.json
+/Users/astowner/Projects/BicycleApplication/Shared/bin/Debug/net7.0/Shared.dll
+/Users/astowner/Projects/BicycleApplication/Shared/bin/Debug/net7.0/Shared.pdb
+/Users/astowner/Projects/BicycleApplication/Shared/obj/Debug/net7.0/Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/astowner/Projects/BicycleApplication/Shared/obj/Debug/net7.0/Shared.AssemblyInfoInputs.cache
+/Users/astowner/Projects/BicycleApplication/Shared/obj/Debug/net7.0/Shared.AssemblyInfo.cs
+/Users/astowner/Projects/BicycleApplication/Shared/obj/Debug/net7.0/Shared.csproj.CoreCompileInputs.cache
+/Users/astowner/Projects/BicycleApplication/Shared/obj/Debug/net7.0/Shared.dll
+/Users/astowner/Projects/BicycleApplication/Shared/obj/Debug/net7.0/refint/Shared.dll
+/Users/astowner/Projects/BicycleApplication/Shared/obj/Debug/net7.0/Shared.pdb
+/Users/astowner/Projects/BicycleApplication/Shared/obj/Debug/net7.0/ref/Shared.dll
+/Users/astowner/Projects/BicycleApplication/Shared/obj/Debug/net7.0/Shared.csproj.AssemblyReference.cache
+/Users/astowner/Projects/BicycleApplication/Shared/bin/Debug/net7.0/Entities.dll
+/Users/astowner/Projects/BicycleApplication/Shared/bin/Debug/net7.0/Entities.pdb
+/Users/astowner/Projects/BicycleApplication/Shared/obj/Debug/net7.0/Shared.csproj.CopyComplete

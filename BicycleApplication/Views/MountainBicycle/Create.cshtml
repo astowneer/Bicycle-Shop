@@ -1,0 +1,68 @@
+﻿@using Entities.Enums;
+@model BicycleApplication.Entities.Models.Mountain
+
+<h1 style="text-align: center;">Створення велосипеду</h1>
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Модель</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Color" class="control-label">Колір</label>
+                <input asp-for="Color" class="form-control" />
+                <span asp-validation-for="Color" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Year" class="control-label">Рік випуску</label>
+                <input asp-for="Year" class="form-control" />
+                <span asp-validation-for="Year" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FrameMaterial" class="control-label">Матеріал рами</label>
+                <select class="form-control" asp-for="FrameMaterial" asp-items="Html.GetEnumSelectList<FrameMaterial>()">
+                    <option selected value="2"></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="BrakeType" class="control-label">Тип тормозу</label>
+                <select class="form-control" asp-for="BrakeType" asp-items="Html.GetEnumSelectList<BrakeType>()">
+                    <option selected value="2"></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="PedantType" class="control-label">Тип підвіски</label>
+                <select class="form-control" asp-for="PedantType" asp-items="Html.GetEnumSelectList<PedantType>()">
+                    <option selected value="2"></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiameterOfWheel" class="control-label">Діаметр колеса</label>
+                <input class="form-control" asp-for="DiameterOfWheel"></input>
+                <span asp-validation-for="DiameterOfWheel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumberOfGears" class="control-label">Кількість швидкостей</label>
+                <input class="form-control" asp-for="NumberOfGears"></input>
+                <span asp-validation-for="NumberOfGears" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label">Ціна</label>
+                <input class="form-control" asp-for="Price"></input>
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Зберегти велосипед" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Назад до списку</a>
+</div>

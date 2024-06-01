@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Entities.Models.BicycleItem>
+
+<h3>Корзина велосипедів</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Назва моделі</th>
+            <th>Колір</th>
+            <th>Рік</th>
+            <th>Кількість</th>
+            <th>Ціна</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => item.Bicycle.Name)</td>
+                <td>@Html.DisplayFor(m => item.Bicycle.Color)</td>
+                <td>@Html.DisplayFor(m => item.Bicycle.Year)</td>
+                <td>@Html.DisplayFor(m => item.Quantity)</td>
+                <td>@Html.DisplayFor(m => item.Bicycle.Price)</td>
+                <td>
+                    @Html.ActionLink("+", "Add", "PurchaseCart", new { id = item.Bicycle.Id }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("-", "Minus", "PurchaseCart", new { id = item.Bicycle.Id }, new { @class = "btn btn-danger" })
+                </td>
+                <td>
+                    @Html.ActionLink("Вилучити", "Remove", "PurchaseCart", new { id = item.Bicycle.Id }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+        <tr>
+            <td colspan="5" style="text-align: right">
+                Загальна сума: @ViewBag.Total
+            </td>
+        </tr>
+    </tbody>
+</table>

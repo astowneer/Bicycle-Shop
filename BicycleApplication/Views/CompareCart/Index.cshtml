@@ -1,0 +1,136 @@
+﻿@model IEnumerable<Entities.Models.CompareItem>
+
+<h3 style="text-align: center;">
+    Порівняльна таблиця вибраних моделей
+</h3>
+
+<table class="table table table-striped">
+    <tbody>
+        <tr>
+            <th scope="row">
+                Назва моделі
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.Name)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Колір
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.Color)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Рік випуску
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.Year)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Матераіал рами
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.FrameMaterial)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Тормоза
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.BrakeType)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Тип підвіски
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.PedantType)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Діаметр коліс
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.DiameterOfWheel)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Ширина руля
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.HandlebarWidth)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Ширина шини
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.TireWidth)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Кількість швидкостей
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.NumberOfGears)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Батарея
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.Battery)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Потужність
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.Power)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Складний
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.IsDropBar)</td>
+            }
+        </tr>
+        <tr>
+            <th scope="row">
+                Ціна
+            </th>
+            @foreach (var item in Model)
+            {
+                <td>@Html.DisplayFor(model => item.Bicycle.Price)</td>
+            }
+        </tr>
+    </tbody>
+</table>

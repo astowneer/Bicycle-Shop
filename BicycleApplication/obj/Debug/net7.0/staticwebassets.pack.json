@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/obj/Debug/net7.0/scopedcss/projectbundle/BicycleApplication.bundle.scp.css",
+      "PackagePath": "staticwebassets/BicycleApplication.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/.DS_Store",
+      "PackagePath": "staticwebassets/Images/.DS_Store"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/electro1.png",
+      "PackagePath": "staticwebassets/Images/electro1.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/electro2.png",
+      "PackagePath": "staticwebassets/Images/electro2.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/electro3.png",
+      "PackagePath": "staticwebassets/Images/electro3.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/gravel1.png",
+      "PackagePath": "staticwebassets/Images/gravel1.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/gravel2.png",
+      "PackagePath": "staticwebassets/Images/gravel2.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/gravel3.png",
+      "PackagePath": "staticwebassets/Images/gravel3.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/gravel4.png",
+      "PackagePath": "staticwebassets/Images/gravel4.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/gravel5.png",
+      "PackagePath": "staticwebassets/Images/gravel5.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/gravel6.png",
+      "PackagePath": "staticwebassets/Images/gravel6.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/gravel7.png",
+      "PackagePath": "staticwebassets/Images/gravel7.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/highway1.png",
+      "PackagePath": "staticwebassets/Images/highway1.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/highway2.png",
+      "PackagePath": "staticwebassets/Images/highway2.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/highway3.png",
+      "PackagePath": "staticwebassets/Images/highway3.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/highway4.png",
+      "PackagePath": "staticwebassets/Images/highway4.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/highway5.png",
+      "PackagePath": "staticwebassets/Images/highway5.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/mountain1.png",
+      "PackagePath": "staticwebassets/Images/mountain1.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/mountain2.png",
+      "PackagePath": "staticwebassets/Images/mountain2.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/mountain3.png",
+      "PackagePath": "staticwebassets/Images/mountain3.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/mountain4.png",
+      "PackagePath": "staticwebassets/Images/mountain4.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/mountain5.png",
+      "PackagePath": "staticwebassets/Images/mountain5.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/Images/mountain6.png",
+      "PackagePath": "staticwebassets/Images/mountain6.png"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/css/bicycleSite.css",
+      "PackagePath": "staticwebassets/css/bicycleSite.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/astowner/Projects/BicycleApplication/BicycleApplication/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BicycleApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.BicycleApplication.props",
+      "PackagePath": "build\\BicycleApplication.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.BicycleApplication.props",
+      "PackagePath": "buildMultiTargeting\\BicycleApplication.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.BicycleApplication.props",
+      "PackagePath": "buildTransitive\\BicycleApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

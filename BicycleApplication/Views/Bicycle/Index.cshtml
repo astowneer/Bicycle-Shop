@@ -1,0 +1,255 @@
+﻿@model Shared.ViewModels.BicycleViewModel
+
+@{
+    Layout = "";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Курсова</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/bicycleSite.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Rewrited.styles.css" asp-append-version="true" />
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Каталог</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Велосипеди</a>
+                    <ul class="collapse list-unstyled show" id="homeSubmenu">
+                        <li>@Html.ActionLink("Гірські", "Mountain", "Characteristic")</li>
+                        <li>@Html.ActionLink("Шосe", "Highway", "Characteristic")</li>
+                        <li>@Html.ActionLink("Гравійні", "Gravel", "Characteristic")</li>
+                        <li>@Html.ActionLink("Електро", "Electro", "Characteristic")</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Фільтр</a>
+                    <ul class="collapse list-unstyled show" id="pageSubmenu">
+                        <li>
+                            <form asp-controller="Bicycle" asp-action="Index" method="post" class="contactForm">
+                                <div class="input-wrapper">
+                                    <div class="wrapper-price">
+                                        <h6>Ціна:</h6>
+                                        <div class="price-input">
+                                            <div class="field">
+                                                <input type="number" class="input-min" value="0" name="Min">
+                                            </div>
+                                            <div class="field">
+                                                <input type="number" class="input-max" value="@ViewBag.MaxPriceValue" name="Max">
+                                            </div>
+                                        </div>
+                                        <div class="slider">
+                                            <div class="progress"></div>
+                                        </div>
+                                        <div class="range-input">
+                                            <input type="range" class="range-min" min="0" max="@ViewBag.MaxPriceValue" value="0" step="100">
+                                            <input type="range" class="range-max" min="0" max="@ViewBag.MaxPriceValue" value="@ViewBag.MaxPriceValue" step="100">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h5 class="pt-3 pl-3">Колір велосипеда</h5>
+                                <div class="block pl-3">
+                                    @for (var index = 0; index < Model.ColorFilter.Count(); index++)
+                                    {
+                                        <div class="form-check">
+                                            <input type="checkbox" asp-for="@Model.ColorFilter[index].IsChecked" class="form-check-input">
+                                            <label class="form-check-label" asp-for="@Model.ColorFilter[index].IsChecked">@Model.ColorFilter[index].Color</label>
+                                            <input type="hidden" asp-for="@Model.ColorFilter[index].Id">
+                                            <input type="hidden" asp-for="@Model.ColorFilter[index].Color">
+                                        </div>
+                                    }
+                                </div>
+
+                                <h5 class="pt-3 pl-3">Рік випуску</h5>
+                                <div class="block pl-3">
+                                    @for (var index = 0; index < Model.YearFilter.Count(); index++)
+                                    {
+                                        <div class="form-check">
+                                            <input type="checkbox" asp-for="@Model.YearFilter[index].IsChecked" class="form-check-input">
+                                            <label class="form-check-label" asp-for="@Model.YearFilter[index].IsChecked">@Model.YearFilter[index].Year</label>
+                                            <input type="hidden" asp-for="@Model.YearFilter[index].Id">
+                                            <input type="hidden" asp-for="@Model.YearFilter[index].Year">
+                                        </div>
+                                    }
+                                </div>
+
+                                <h5 class="pt-3 pl-3">Діаметр колеса</h5>
+                                <div class="block pl-3">
+                                    @for (var index = 0; index < Model.WheelFilter.Count(); index++)
+                                    {
+                                        <div class="form-check">
+                                            <input type="checkbox" asp-for="@Model.WheelFilter[index].IsChecked" class="form-check-input">
+                                            <label class="form-check-label" asp-for="@Model.WheelFilter[index].IsChecked">@Model.WheelFilter[index].Diameter</label>
+                                            <input type="hidden" asp-for="@Model.WheelFilter[index].Id">
+                                            <input type="hidden" asp-for="@Model.WheelFilter[index].Diameter">
+                                        </div>
+                                    }
+                                </div>
+
+                                @*<h5 class="pt-3 pl-3">Матеріал рами</h5>
+                                    <div class="block pl-3">
+                                        @for (var index = 0; index < Model.FrameTypeFilter.Count(); index++)
+                                        {
+                                            <div class="form-check">
+                                                <input type="checkbox" asp-for="@Model.FrameTypeFilter[index].IsChecked" class="form-check-input">
+                                                <label class="form-check-label" asp-for="@Model.FrameTypeFilter[index].IsChecked">@Model.FrameTypeFilter[index].Frame</label>
+                                                <input type="hidden" asp-for="@Model.FrameTypeFilter[index].Id">
+                                                <input type="hidden" asp-for="@Model.FrameTypeFilter[index].Frame">
+                                            </div>
+                                        }
+                                    </div>
+
+                                    <h5 class="pt-3 pl-3">Тип підвіски</h5>
+                                    <div class="block pl-3">
+                                        @for (var index = 0; index < Model.PedantTypeFilter.Count(); index++)
+                                        {
+                                            <div class="form-check">
+                                                <input type="checkbox" asp-for="@Model.PedantTypeFilter[index].IsChecked" class="form-check-input">
+                                                <label class="form-check-label" asp-for="@Model.PedantTypeFilter[index].IsChecked">@Model.PedantTypeFilter[index].Pedant</label>
+                                                <input type="hidden" asp-for="@Model.PedantTypeFilter[index].Id">
+                                                <input type="hidden" asp-for="@Model.PedantTypeFilter[index].Pedant">
+                                            </div>
+                                        }
+                                    </div>
+
+                                    <h5 class="pt-3 pl-3">Тип тормозу</h5>
+                                    <div class="block pl-3">
+                                        @for (var index = 0; index < Model.BrakeTypeFilter.Count(); index++)
+                                        {
+                                            <div class="form-check">
+                                                <input type="checkbox" asp-for="@Model.BrakeTypeFilter[index].IsChecked" class="form-check-input">
+                                                <label class="form-check-label" asp-for="@Model.BrakeTypeFilter[index].IsChecked">@Model.BrakeTypeFilter[index].Brake</label>
+                                                <input type="hidden" asp-for="@Model.BrakeTypeFilter[index].Id">
+                                                <input type="hidden" asp-for="@Model.BrakeTypeFilter[index].Brake">
+                                            </div>
+                                        }
+                                    </div>*@
+
+                                <button type="submit" class="btn btn-primary mt-3 w-100" style="background: #5F70B9; border-radius: 10px; border: none;">Фільтр</button>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content -->
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Меню</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Bicycles" asp-action="Index">Головна</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">Категорії</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="BicycleCart" asp-action="Index">Корзина</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="BicycleCompare" asp-action="Index">Порівняння</a>
+                            </li>
+                            <li class="nav-item">
+                                @using (Html.BeginForm())
+                                {
+                                    <div class="form-inline">
+                                        <label for="searchString" class="sr-only">Знайти за моделю:</label>
+                                        @Html.TextBox("SearchString", null, new { @class = "form-control", placeholder = "Знайти за моделю" })
+                                        <button type="submit" class="btn btn-primary ml-2">Пошук</button>
+                                    </div>
+                                }
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div>
+                <main role="main" class="pb-3">
+                    <table class="table" id="tableproduct">
+                        <thead>
+                            <tr>
+                                <th>@Html.ActionLink("Модель", "Index", new { sortOrder = ViewBag.NameSortParm })</th>
+                                <th>@Html.ActionLink("Колір", "Index", new { sortOrder = ViewBag.ColorSortParm })</th>
+                                <th>@Html.ActionLink("Рік", "Index", new { sortOrder = ViewBag.YearSortParm })</th>
+                                <th>@Html.ActionLink("Рама", "Index", new { sortOrder = ViewBag.FrameSortParm })</th>
+                                <th>@Html.ActionLink("Тормоза", "Index", new { sortOrder = ViewBag.BrakeSortParm })</th>
+                                <th>@Html.ActionLink("Підвіска", "Index", new { sortOrder = ViewBag.PedantSortParm })</th>
+                                <th>@Html.ActionLink("Колеса", "Index", new { sortOrder = ViewBag.WheelSortParm })</th>
+                                <th>@Html.ActionLink("Ціна", "Index", new { sortOrder = ViewBag.PriceSortParm })</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Bicycles)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Color)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Year)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.FrameMaterial)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.BrakeType)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.PedantType)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.DiameterOfWheels)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                                    <td>
+                                        @Html.ActionLink("Порівняти", "Compare", "CompareCart", new { id = item.Id }, new { @class = "btn btn-primary" })
+                                        @Html.ActionLink("Придбати", "Buy", "PurchaseCart", new { id = item.Id }, new { @class = "btn btn-primary" })
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Курсова
+        </div>
+    </footer>
+
+    <!-- jQuery CDN - Slim version -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

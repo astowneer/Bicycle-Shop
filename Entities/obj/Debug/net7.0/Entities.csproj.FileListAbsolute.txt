@@ -1,0 +1,12 @@
+/Users/astowner/Projects/BicycleApplication/Entities/bin/Debug/net7.0/Entities.deps.json
+/Users/astowner/Projects/BicycleApplication/Entities/bin/Debug/net7.0/Entities.dll
+/Users/astowner/Projects/BicycleApplication/Entities/bin/Debug/net7.0/Entities.pdb
+/Users/astowner/Projects/BicycleApplication/Entities/obj/Debug/net7.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/astowner/Projects/BicycleApplication/Entities/obj/Debug/net7.0/Entities.AssemblyInfoInputs.cache
+/Users/astowner/Projects/BicycleApplication/Entities/obj/Debug/net7.0/Entities.AssemblyInfo.cs
+/Users/astowner/Projects/BicycleApplication/Entities/obj/Debug/net7.0/Entities.csproj.CoreCompileInputs.cache
+/Users/astowner/Projects/BicycleApplication/Entities/obj/Debug/net7.0/Entities.dll
+/Users/astowner/Projects/BicycleApplication/Entities/obj/Debug/net7.0/refint/Entities.dll
+/Users/astowner/Projects/BicycleApplication/Entities/obj/Debug/net7.0/Entities.pdb
+/Users/astowner/Projects/BicycleApplication/Entities/obj/Debug/net7.0/ref/Entities.dll
+/Users/astowner/Projects/BicycleApplication/Entities/obj/Debug/net7.0/Entities.csproj.AssemblyReference.cache

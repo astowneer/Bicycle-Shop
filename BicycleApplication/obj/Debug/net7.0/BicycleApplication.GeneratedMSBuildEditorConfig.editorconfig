@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BicycleApplication
+build_property.RootNamespace = BicycleApplication
+build_property.ProjectDir = /Users/astowner/Projects/BicycleApplication/BicycleApplication/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/astowner/Projects/BicycleApplication/BicycleApplication
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/Bicycle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmljeWNsZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/Characteristic/Electro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhcmFjdGVyaXN0aWMvRWxlY3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/Characteristic/Gravel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhcmFjdGVyaXN0aWMvR3JhdmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/Characteristic/Highway.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhcmFjdGVyaXN0aWMvSGlnaHdheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/Characteristic/Mountain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhcmFjdGVyaXN0aWMvTW91bnRhaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/CompareCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGFyZUNhcnQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/ElectroBicycle/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWxlY3Ryb0JpY3ljbGUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/ElectroBicycle/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWxlY3Ryb0JpY3ljbGUvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/ElectroBicycle/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWxlY3Ryb0JpY3ljbGUvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/ElectroBicycle/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWxlY3Ryb0JpY3ljbGUvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/ElectroBicycle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWxlY3Ryb0JpY3ljbGUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/GravelBicycle/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3JhdmVsQmljeWNsZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/GravelBicycle/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3JhdmVsQmljeWNsZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/GravelBicycle/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3JhdmVsQmljeWNsZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/GravelBicycle/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3JhdmVsQmljeWNsZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/GravelBicycle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3JhdmVsQmljeWNsZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/HighwayBicycle/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGlnaHdheUJpY3ljbGUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/HighwayBicycle/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGlnaHdheUJpY3ljbGUvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/HighwayBicycle/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGlnaHdheUJpY3ljbGUvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/HighwayBicycle/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGlnaHdheUJpY3ljbGUvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/HighwayBicycle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGlnaHdheUJpY3ljbGUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/MountainBicycle/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91bnRhaW5CaWN5Y2xlL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/MountainBicycle/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91bnRhaW5CaWN5Y2xlL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/MountainBicycle/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91bnRhaW5CaWN5Y2xlL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/MountainBicycle/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91bnRhaW5CaWN5Y2xlL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/MountainBicycle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91bnRhaW5CaWN5Y2xlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/PurchaseCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVyY2hhc2VDYXJ0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/Shared/_LayoutBicycle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRCaWN5Y2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/astowner/Projects/BicycleApplication/BicycleApplication/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q41d0xdzhg

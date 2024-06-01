@@ -1,0 +1,17 @@
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/bin/Debug/net7.0/Service.Contracts.deps.json
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/bin/Debug/net7.0/Service.Contracts.dll
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/bin/Debug/net7.0/Service.Contracts.pdb
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/bin/Debug/net7.0/Shared.dll
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/bin/Debug/net7.0/Shared.pdb
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/obj/Debug/net7.0/Service.Contracts.csproj.AssemblyReference.cache
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/obj/Debug/net7.0/Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/obj/Debug/net7.0/Service.Contracts.AssemblyInfoInputs.cache
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/obj/Debug/net7.0/Service.Contracts.AssemblyInfo.cs
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/obj/Debug/net7.0/Service.Contracts.csproj.CoreCompileInputs.cache
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/obj/Debug/net7.0/Service.Contracts.dll
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/obj/Debug/net7.0/refint/Service.Contracts.dll
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/obj/Debug/net7.0/Service.Contracts.pdb
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/obj/Debug/net7.0/ref/Service.Contracts.dll
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/bin/Debug/net7.0/Entities.dll
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/bin/Debug/net7.0/Entities.pdb
+/Users/astowner/Projects/BicycleApplication/Service.Contracts/obj/Debug/net7.0/Service.Contracts.csproj.CopyComplete
